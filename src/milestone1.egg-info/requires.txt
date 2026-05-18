@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+click
+httpx
+pandas
+datasets
+pytest
+pytest-mock
+groq

@@ -1,0 +1,10 @@
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
+
+[analysis]
+extra-paths = [
+    "src",
+    "C:/Users/Karuna/AppData/Roaming/Python/Python311/site-packages"
+]

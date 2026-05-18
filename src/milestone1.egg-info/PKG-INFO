@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: milestone1
+Version: 0.1.0
+Summary: AI-Powered Restaurant Recommendation System (Zomato Use Case)
+Requires-Python: >=3.9
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-dotenv
+Requires-Dist: click
+Requires-Dist: httpx
+Requires-Dist: pandas
+Requires-Dist: datasets
+Requires-Dist: pytest
+Requires-Dist: pytest-mock
+Requires-Dist: groq

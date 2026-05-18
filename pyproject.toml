@@ -1,0 +1,27 @@
+[project]
+name = "milestone1"
+version = "0.1.0"
+description = "AI-Powered Restaurant Recommendation System (Zomato Use Case)"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "click",
+    "httpx",
+    "pandas",
+    "datasets",
+    "pytest",
+    "pytest-mock",
+    "groq",
+]
+
+[project.scripts]
+milestone1 = "milestone1.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

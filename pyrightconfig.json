@@ -1,0 +1,22 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "reportMissingImports": true,
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Windows",
+    "executionEnvironments": [
+        {
+            "root": "src",
+            "extraPaths": [
+                "C:\\Users\\Karuna\\AppData\\Roaming\\Python\\Python311\\site-packages",
+                "src"
+            ]
+        }
+    ]
+}
